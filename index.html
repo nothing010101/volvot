@@ -26,7 +26,14 @@
         <link href="https://cdn.prod.website-files.com/688f8550e13cc0d3fc269383/688f8550e13cc0d3fc2693a3_favicon.svg" rel="shortcut icon" type="image/x-icon"/>
         <link href="https://cdn.prod.website-files.com/688f8550e13cc0d3fc269383/688f8550e13cc0d3fc2693a4_webclip.png" rel="apple-touch-icon"/>
         <style>
-            /* Custom Volvot Styles */
+            /* Volvot Logo Text Override */
+            .logo-text, .preloader_logo {
+                content: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40"><text x="10" y="25" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">VOLVOT</text></svg>');
+            }
+            
+            .navbar_logo-text_block .logo-text {
+                content: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40"><text x="10" y="25" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="black">VOLVOT</text></svg>');
+            }
             .volvot-gradient {
                 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             }
