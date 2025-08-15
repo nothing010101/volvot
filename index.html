@@ -27,12 +27,21 @@
         <link href="https://cdn.prod.website-files.com/688f8550e13cc0d3fc269383/688f8550e13cc0d3fc2693a4_webclip.png" rel="apple-touch-icon"/>
         <style>
             /* Volvot Logo Text Override */
-            .logo-text, .preloader_logo {
-                content: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40"><text x="10" y="25" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">VOLVOT</text></svg>');
+            .logo-text {
+                width: 80px;
+                height: 20px;
+                object-fit: contain;
             }
             
-            .navbar_logo-text_block .logo-text {
-                content: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40"><text x="10" y="25" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="black">VOLVOT</text></svg>');
+            .preloader_logo {
+                width: 120px;
+                height: 30px;
+                object-fit: contain;
+            }
+            
+            .navbar_logo-text_block {
+                position: relative;
+                overflow: hidden;
             }
             /* Custom Volvot Styles */
                 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
